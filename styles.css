@@ -1,0 +1,69 @@
+body {
+  background-color: darksalmon;
+  padding: 2em;
+  padding-top: 1em;
+  -webkit-animation: color_change 1s infinite alternate;
+	-moz-animation: color_change 1s infinite alternate;
+	-ms-animation: color_change 1s infinite alternate;
+	-o-animation: color_change 1s infinite alternate;
+  animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+	0% { background-color: darksalmon; }
+  25% { background-color:lightgreen; }
+  50% { background-color: rgb(255, 255, 100); }
+  75% { background-color: lightgrey; }
+  100% { background-color: lightseagreen; }
+}
+@-moz-keyframes color_change {
+	0% { background-color: darksalmon; }
+  25% { background-color:lightgreen; }
+  50% { background-color: rgb(255, 255, 100); }
+  75% { background-color: lightgrey; }
+  100% { background-color: lightseagreen; }
+}
+@-ms-keyframes color_change {
+	0% { background-color: darksalmon; }
+  25% { background-color:lightgreen; }
+  50% { background-color: rgb(255, 255, 100); }
+  75% { background-color: lightgrey; }
+  100% { background-color: lightseagreen; }
+}
+@-o-keyframes color_change {
+	0% { background-color: darksalmon; }
+  25% { background-color:lightgreen; }
+  50% { background-color: rgb(255, 255, 100); }
+  75% { background-color: lightgrey; }
+  100% { background-color: lightseagreen; }
+}
+@keyframes color_change {
+	0% { background-color: darksalmon; }
+  25% { background-color:lightgreen; }
+  50% { background-color: rgb(255, 255, 100); }
+  75% { background-color: lightgrey; }
+  100% { background-color: lightseagreen; }
+}
+
+.main-info {
+  margin-left: 10em;
+}
+
+.info-container {
+  margin-left: 1em;
+  padding-left: 2em;
+  border-left: 0.1em solid darkslategray;
+}
+
+img {
+  position: absolute;
+  left: 2em;
+  margin-top: 1em;
+  width: 8em;
+  border-radius: 50%;
+  transition: 1.5s;
+}
+
+img:hover {
+  transform: scale(1.5) rotate(720deg);
+}
